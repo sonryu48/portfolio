@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-koi-orange: #30896d;
+  --color-light-sand: #ffffff;
+  --color-charcoal-sand: #232323;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("assets/font/Rubik.woff2") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("assets/font/Rubik-Medium.woff2") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@layer base {
+  html {
+    font-family: "Rubik";
+    @apply text-white;
+  }
+
+  .main {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    background:
+      linear-gradient(50deg, rgba(5, 5, 5, 0.9), rgba(35, 35, 35, 0.9))
+  }
+
+  h1 {
+    @apply text-6xl;
+    color: var(--color-koi-orange);
+  }
+
+  h2 {
+    @apply text-4xl;
+    color: var(--color-koi-orange);
+  }
+
+  h3 {
+    @apply text-2xl;
+    color: var(--color-koi-orange);
+  }
+
+  b {
+    color: var(--color-koi-orange);
+  }
+}
