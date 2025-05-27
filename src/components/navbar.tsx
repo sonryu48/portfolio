@@ -6,7 +6,7 @@ export function Navbar() {
 
   if (pathname === "/accueil") return;
 
-  const linksToDisplay: string[] = ["accueil", "compétences", "réalisations", "contact"];
+  const linksToDisplay: string[] = ["accueil",  "réalisations", "compétences", "contact"];
 
   return (
     <nav
