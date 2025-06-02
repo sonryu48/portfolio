@@ -1,9 +1,10 @@
 import { JSX, useEffect, useState } from "react";
-import { bluePrint, transurvey, lotus, simplE } from "../assets/images";
+import { bluePrint, neopacker ,transurvey, lotus, simplE } from "../assets/images";
 import { Link, useParams } from "react-router";
 
 type RealLookup = {
   lotus: JSX.Element;
+  neopacker: JSX.Element;
   simplE: JSX.Element;
   transurvey: JSX.Element;
   blueprint: JSX.Element;
@@ -67,6 +68,89 @@ const contentLookup: RealLookup = {
           HTML
         </Link>
 
+        <Link
+          to="../compétences/cycleV"
+          className="px-3 py-1 rounded border-2 border-white text-white"
+        >
+          Cycle en V
+        </Link>
+      </div>
+    </>
+  ),
+  neopacker: (
+    <>
+      <h2>
+        NewNeoPacker
+      </h2>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Introduction
+        </h3>
+
+        <p>
+          Le projet NewNeoPacker est le premier projet sur lequel j’ai mis en action mes compétences sur un code déjà existant. Aussi j’ai pu pour la première fois travailler sur une base de données, le site web devant posséder des données dynamiques.
+        </p>
+
+        <p>
+          Le projet consistait en la création d’un site de type blog permettant à son détenteur de poster des articles, des images et des liens vers les pages d’achats de ses livres pour en faire la promotion. 
+        </p>
+
+        <p>
+          Le commanditaire, Raphaël Paquereau, étant un grand passionné de voyage à pied et avec le strict minimum en terre inconnue, ce projet qui lui permettra de partager toute sa passion au plus grand nombre lui tenait énormément à cœur. Aimant et trouvant le partage extrêmement important, cela n’a fait que renforcer ma motivation afin de donner le plus et le meilleur de moi-même.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Objectifs
+        </h3>
+
+        <p>
+          Les objectifs d’évaluation de ce projet pour ce semestre étaient l’utilisation de PHP et de la synchronisation et liaison avec une base de données. L’interaction entre le site et la base de données est, dans ce projet, la compétence la plus importante.
+        </p>
+        <p>
+           Cela crée un pont entre le site du projet précédent qui était un site vitrine, fixe et figé, à la différence de celui-ci qui est dynamique avec des éléments qui peuvent être ajoutés, modifiés et même supprimés.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Déroulement du projet
+        </h3>
+
+        <p>
+          Lors du démarrage du projet, j’ai été le seul dans l’équipe à découvrir le commanditaire et le site existant. Il m’a donc été fait une description du projet, son idéologie et vers quoi le projet devait évoluer lors de la réunion de cadrage.
+        </p>
+
+        <p>
+          Une fois tous les points d’ombres éclaircis, j’ai commencé à réfléchir aux tables qui composeront la base de données. Ces dernières doivent être cohérentes, logiques mais aussi simples et explicites. Comme le commanditaire n’est pas un pro de l’informatique, je devais faire en sorte que la base de données soit complètement compréhensible si un jour il a besoin de modifier ou confier le projet à de nouvelles personnes. Pour réaliser ce point, j’ai conçu les modèles conceptuel et logique de données. Cela permet d’avoir le squelette de la base de données et de vérifier les caractéristiques énumérées précédemment.
+        </p>
+
+        <p>
+          Le second point important du projet était sa transformation en PHP pour permettre un lien plus facile à la base de données et permettant un code un peu plus dynamique que le HTML et le JavaScript. Pour cela, nous nous sommes réparties les tâches dans l’équipe et j’ai surtout participé à l’adaptation des pages existantes dans leurs nouveaux langages. J’ai pu utiliser les balises plus dynamiques de PHP qui permettaient un code plus lisible et compréhensible. J’ai aussi pu créer des boucles afin d’afficher plusieurs informations depuis une section de code plutôt que de réécrire par ligne le code fixe et non dynamique.
+        </p>
+
+        <p>
+          Pour finir le projet, j’ai écrit les livrables comme le manuel d’utilisation ou le manuel de la base de données et effectué la remise du projet.
+        </p>
+      </section>
+
+      <div className="flex flex-wrap items-center gap-8">
+        <Link
+          to="../compétences/html"
+          className="px-3 py-1 rounded border-2 border-white text-white"
+        >
+          HTML
+        </Link>
+
+        <Link
+          to="../compétences/sql"
+          className="px-3 py-1 rounded border-2 border-white text-white"
+        >
+          SQL
+        </Link>
+        
         <Link
           to="../compétences/cycleV"
           className="px-3 py-1 rounded border-2 border-white text-white"
@@ -366,6 +450,31 @@ export function Realisations() {
 
             <span className="text-sm">
               Création d'un site vitrine avec HTML, CSS et JavaScript
+            </span>
+          </div>
+        </button>
+
+        <button
+          className={
+            "relative flex items-center gap-4 max-w-2xl p-3 border-2 border-light-sand rounded-xl bg-charcoal-sand"
+            + " shadow-2xl cursor-pointer"
+          }
+          onClick={() => setSelected("neopacker")}
+        >
+          <div className="flex justify-center items-center w-1/5 h-24">
+            <img
+              src={neopacker}
+              className="h-full"
+            />
+          </div>
+
+          <div className="flex flex-col items-start text-left gap-2">
+            <b className="text-lg">
+              NewNeoPacker
+            </b>
+
+            <span className="text-sm">
+              Refonte d'un site vitrine en un blog avec PHP et MySQL
             </span>
           </div>
         </button>

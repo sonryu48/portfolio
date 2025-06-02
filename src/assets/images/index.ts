@@ -7,6 +7,7 @@ import globe from "./globe.png";
 import html from "./HTML.png";
 import lotus from "./Lotus.png";
 import man from "./man.png";
+import neopacker from "./neopacker.png"
 import presentation from "./Presentation.jpg";
 import simplE from "./Simpl-E.png";
 import sql from "./SQL.png";
@@ -24,6 +25,7 @@ export {
   html,
   lotus,
   man,
+  neopacker,
   presentation,
   simplE,
   sql,
