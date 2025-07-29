@@ -246,7 +246,7 @@ const contentLookup: RealLookup = {
         </h3>
 
         <p>
-        Pour démarrer ce projet, il était important de créer une base de données cohérente avec les données que le logiciel recevra, mais aussi avec les données sortantes. Créer la base de données en premier m’a aidé à avoir une meilleure compréhension de comment le groupe va pouvoir créer le logiciel. Ma participation à ce niveau a été de créer des tables grâce à SQL.
+        Pour démarrer ce projet, il était important de créer une base de données cohérente avec les données que le logiciel recevra, mais aussi avec les données sortantes. Créer la base de données en premier m’a aidé à avoir une meilleure compréhension de comment le groupe va pouvoir créer le logiciel. Ma participation à ce niveau a été de créer des tables grâce aux requêtes SQL.
         </p>
 
         <p>
@@ -333,11 +333,11 @@ const contentLookup: RealLookup = {
         </h3>
 
         <p>
-        Ce projet a été développé avec la méthode agile, j’ai été désigné Scrum Master et j’ai donc commencé par planifier la réunion de démarrage. Ici j’ai, avec l’équipe projet, défini les besoins avec le commanditaire et réuni le plus d'informations pour créer les prochains livrables. J’ai donc participé à la rédaction des uses-cases et du product-backlog.
+        Ce projet a été développé avec la méthode agile, j’ai été désigné Scrum Master et j’ai donc commencé par planifier la réunion de démarrage. Ici j’ai, avec l’équipe projet, défini les besoins avec le commanditaire et réuni le plus d'informations pour créer les prochains livrables. J’ai donc participé à la rédaction des uses-cases et du product-backlog. L’équipe projet et moi avons utilisé le logiciel draw.io afin de structurer visuellement ce dernier. Pour le contenu, nous avons recensé tous les besoins définis par le commanditaire précédemment afin de créer les épics, les thèmes et les user-stories.
         </p>
         
         <p>
-        La prochaine étape était de créer une base de données. Pour créer des formulaires dynamiques, j’ai beaucoup réfléchi à comment organiser la base pour être la plus permissive possible. Les développements ont ensuite commencé et j’ai grandement participé à la création de l’interface utilisateur.
+        La prochaine étape était de créer une base de données. Pour créer des formulaires dynamiques, j’ai beaucoup réfléchi à comment organiser la base pour être la plus permissive possible lors de la phase de conception des modèles conceptuel et logique de données. Les développements ont ensuite commencé et j’ai grandement participé à la création de l’interface utilisateur.
         </p>
 
         <p>
