@@ -2,6 +2,7 @@ import { useContext, useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import { presentation } from "../assets/images/index";
 import { MainRefCurrentContext } from "../Layout";
+import { bac, esiea, safran, ariane } from "../assets/images";
 
 function txClassListAdd(element: Element, className: string) {
   const twClasses: string[] = className.split(" ");
@@ -146,83 +147,145 @@ export function Index() {
           </h2>
 
           <div className="flex flex-col w-full">
-            <div className="container">
-              <div className="grid grid-cols-1 sm:grid-cols-4 gap-6 relative z-10">
-                <a
-                  href="https://www.lpo-saint-exupery-parentis-en-born.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="flex flex-col justify-center items-center border-2 border-koi-orange rounded-2xl">
-                    <br/>
-                    <b className="text-white">2020</b>
-                  <b className="text-lg">
-                    BAC STI2D SIN
-                  </b>
-                  <p className="text-sm text-center">
-                    Obtention du Baccalauréat au lycée Saint-Exupéry de Parentis-en-Born
-                  </p>
-                  <br/>
-                  </div>
-                </a>
+            <div
+              className={
+                "relative flex items-center gap-4 max-w-2xl p-3 border-2 border-light-sand rounded-xl bg-charcoal-sand"
+                + " shadow-2xl"
+              }
+            >
+              <span className="absolute top-0 -translate-y-1/2 left-8 bg-light-sand text-charcoal-sand px-2 rounded">
+                2020
+              </span>
 
-                <a
-                href="https://www.esiea.fr/"
+              <a
+                href="https://www.lpo-saint-exupery-parentis-en-born.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                >
-                  <div className="flex flex-col justify-center items-center border-2 border-koi-orange rounded-2xl">
-                    <br/>
-                    <b className="text-white text-center">Septembre 2020 - Août 2025</b>
-                  <b className="text-lg text-center">
-                    Master en ingénierie du logiciel
-                  </b>
-                  <p className="text-sm text-center">
-                    Étude à l'ESIEA dans le programme "Expert en Ingénierie du développement d'applications"
-                  </p>
-                  <br/>
-                  </div>
-                </a>
+                className="shrink-0 max-w-1/4"
+              >
+                <img
+                  src={bac}
+                  className="max-h-24"
+                />
+              </a>
 
-                <a
-                href="https://www.safran-group.com/fr/societes/safran-helicopter-engines"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                  <div className="flex flex-col justify-center items-center border-2 border-koi-orange rounded-2xl">
-                    <br/>
-                    <b className="text-white text-center">Mars 2023 - Août 2023</b>
-                  <b className="text-lg text-center">
-                    Stage - Recherche et développement
-                  </b>
-                  <p className="text-sm text-center">
-                    Stage chez Safran Helicopter Engines, recherche sur migration
-                  </p>
-                  <br/>
-                  </div>
-                </a>
-        
-                <a
-                href="https://ariane.group/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                  <div className="flex flex-col justify-center items-center border-2 border-koi-orange rounded-2xl">
-                    <br/>
-                    <b className="text-white text-center">Septembre 2023 - Août 2025</b>
-                  <b className="text-lg text-center">
-                  Alternance - Recherche et développement
-                  </b>
-                  <p className="text-sm text-center">
-                    Alternance chez ArianeGroup en tant qu'integrateur low-code
-                  </p>
-                  <br/>
-                  </div>
-                </a>
+              <div className="flex flex-col gap-2">
+                <b className="text-lg">
+                  BAC STI2D SIN
+                </b>
+
+                <span className="text-sm">
+                  Obtention du Baccalauréat au lycée Saint-Exupéry de Parentis-en-Born
+                </span>
               </div>
             </div>
 
+            <div className="self-center h-16 w-1 bg-light-sand" />
+
+            <div
+              className={
+                "relative self-end flex items-center gap-4 max-w-2xl p-3 border-2 border-light-sand rounded-xl"
+                + " bg-charcoal-sand shadow-2xl"
+              }
+            >
+              <span className="absolute top-0 -translate-y-1/2 left-8 bg-light-sand text-charcoal-sand px-2 rounded">
+                Septembre 2020 - Août 2025
+              </span>
+
+              <a
+                href="https://www.esiea.fr/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 max-w-1/4"
+              >
+                <img
+                  src={esiea}
+                  className="max-h-24"
+                />
+              </a>
+
+              <div className="flex flex-col gap-2">
+                <b className="text-lg">
+                  Master en ingénierie du logiciel
+                </b>
+
+                <span className="text-sm">
+                  Étude à l'ESIEA dans le programme "Expert en Ingénierie du développement d'applications"
+                </span>
+              </div>
+            </div>
+
+            <div className="self-center h-16 w-1 bg-light-sand" />
+
+            <div
+              className={
+                "relative flex items-center gap-4 max-w-2xl p-3 border-2 border-light-sand rounded-xl bg-charcoal-sand"
+                + " shadow-2xl"
+              }
+            >
+              <span className="absolute top-0 -translate-y-1/2 left-8 bg-light-sand text-charcoal-sand px-2 rounded">
+                Mars 2023 - Août 2023
+              </span>
+
+              <a
+                href="https://www.safran-group.com/fr/societes/safran-helicopter-engines"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 max-w-1/4"
+              >
+                <img
+                  src={safran}
+                  className="max-h-24"
+                />
+              </a>
+
+              <div className="flex flex-col gap-2">
+                <b className="text-lg">
+                  Stage - Recherche et développement
+                </b>
+
+                <span className="text-sm">
+                  Stage chez Safran Helicopter Engines, recherche sur migration informatique
+                </span>
+              </div>
+            </div>
+
+            <div className="self-center h-16 w-1 bg-light-sand" />
+
+            <div
+              className={
+                "relative self-end flex items-center gap-4 max-w-2xl p-3 border-2 border-light-sand rounded-xl"
+                + " bg-charcoal-sand shadow-2xl"
+              }
+            >
+              <span className="absolute top-0 -translate-y-1/2 left-8 bg-light-sand text-charcoal-sand px-2 rounded">
+                Septembre 2023 - Août 2025
+              </span>
+
+              <a
+                href="https://ariane.group/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 max-w-1/4"
+              >
+                <img
+                  src={ariane}
+                  className="max-h-24"
+                />
+              </a>
+
+              <div className="flex flex-col gap-2">
+                <b className="text-lg">
+                  Alternance - Recherche et développement
+                </b>
+
+                <span className="text-sm">
+                  Alternance chez ArianeGroup en tant qu'integrateur low-code
+                </span>
+              </div>
+            </div>
           </div>
+
         </section>
 
         <section className="flex flex-col gap-8 max-w-[55ch] pb-8">

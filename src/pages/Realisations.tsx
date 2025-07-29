@@ -56,7 +56,34 @@ const contentLookup: RealLookup = {
         En termes de code, je me suis surtout occupé de créer la page de connexion et de création de compte qui étaient des squelettes car aucune base de données n’était intégrée au projet au cours de ce semestre. J’ai aussi participé à la rédaction de la page d'accueil et à sa mise en forme.
         </p>
         <p>
-        Pour la fin du projet, j’ai rédigé des livrables comme le manuel d’utilisation et effectué la remise du projet.
+        Mon côté chef de projet, en particulier pour maintenir la relation avec le commanditaire, a été mis à l'épreuve durant ce projet. En effet, un membre du groupe a fini par se prendre la tête avec le commanditaire du projet, créant une embrouille en réunion et dégradant considérablement les relations entre le groupe et le commanditaire. Pour compenser cela, j’ai écrit des mails d’excuses permettant de recréer une ambiance de collaboration entre les deux parties prenantes.
+        </p>
+        <p>
+          Pour terminer le projet, j’ai rédigé des livrables comme le manuel d’utilisation qui montre comment le site fonctionne d’un point utilisateur, comment il doit se déplacer et les possibilités qui sont offertes.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Fin de projet
+        </h3>
+
+        <p>
+          Au moment du rendu, le site n'était pas tout à fait opérationnel, il manquait la partie base de données pour rendre le site dynamique. Cependant, le visuel et le squelette du site étaient complètement terminés. Le site a alors été confié à des élèves de semestres supérieurs pour ajouter ce côté dynamique souhaité par la commanditaire, que nous n'étions pas en mesure de créer en semestre 1.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Ce premier projet étudiant m'a permis d'évoluer en particulier sur l’aspect chef de projet et relation avec commanditaire. J’ai donc pu faire un premier pas dans le côté humain d’un projet informatique.
+        <br/>
+          Côté technique, j’avais déjà eu l'occasion de travailler avec HTML et CSS lors de cursus lycéen et le projet de ce semestre a été une opportunité de renforcer mes bases et connaissances.
+        <br/>
+          Malgré les soucis qu’il y a pu avoir avec certains membres du groupe, je suis très heureux d’avoir pu travailler avec madame Peruarena qui nous a fait découvrir son secteur des dermo-facialistes et nous a offert une occasion de grandir autant sur le plan technique que sur le plus humain.
         </p>
       </section>
 
@@ -136,6 +163,30 @@ const contentLookup: RealLookup = {
         </p>
       </section>
 
+      <section className="flex flex-col gap-2">
+        <h3>
+          Fin de projet
+        </h3>
+
+        <p>
+          Au moment du rendu, le site était totalement complet et fonctionnel. Le commanditaire était très content du logiciel qui répondait à ses attentes et plus encore.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Cette expérience a sûrement été mon projet étudiant préféré. La synergie entre l'équipe projet et le commanditaire était parfaite, avec une bonne communication et un alignement des passions et valeurs.
+        <br/>
+          Du côté technique, c'était la première fois que j'interagis sur un projet déjà commencé et j’ai appris à m'adapter au code déjà existant. Ce projet m'a aussi permis de découvrir le SQL et les bases de données qui est encore aujourd’hui une de mes technologies de développement préférées.
+        <br/>
+          Dans le futur, je compte continuer d’utiliser les bases de données mais je préfère m'éloigner sûrement du PHP que je trouve aujourd’hui obsolète.
+        </p>
+      </section>
+
       <div className="flex flex-wrap items-center gap-8">
         <Link
           to="../compétences/html"
@@ -185,7 +236,7 @@ const contentLookup: RealLookup = {
         </h3>
 
         <p>
-        Les compétences que ce projet permet d’évaluer sont l’utilisation de C# dans une application .NET qui est une technologie de Microsoft. Ici, la création d'algorithmes plus poussés est plus importante que dans les projets précédents.
+        Les compétences que ce projet permet d’évaluer sont l’utilisation de C# dans une application .NET qui est une technologie de Microsoft. Ici, la création d'algorithmes plus poussés est plus importante que dans les projets précédents qui étaient basés sur des technologies web, faisant de ce projet le différend auquel j’ai eu la chance de participer.
         </p>
       </section>
 
@@ -195,15 +246,37 @@ const contentLookup: RealLookup = {
         </h3>
 
         <p>
-        Pour démarrer ce projet, il était important de créer une base de données cohérente avec les données que le logiciel recevra, mais aussi avec les données sortantes. J’ai pu créer des tables grâce à SQL.  
+        Pour démarrer ce projet, il était important de créer une base de données cohérente avec les données que le logiciel recevra, mais aussi avec les données sortantes. Créer la base de données en premier m’a aidé à avoir une meilleure compréhension de comment le groupe va pouvoir créer le logiciel. Ma participation à ce niveau a été de créer des tables grâce à SQL.
         </p>
 
         <p>
-        Suite à cela, j’ai agi sur l’expérience utilisateur du logiciel en créant des pages visuelles et compréhensives pour les utilisateurs. Le logiciel utilisé pour le développement .NET, Visual Studio, m’a beaucoup aidé grâce à son interface visuelle.
+        Suite à cela, j’ai agi sur l’expérience utilisateur du logiciel en créant des pages visuelles et compréhensives pour les utilisateurs. Pour cela, j’ai employé le langage WPF pour créer l’interface par page. Le logiciel utilisé pour le développement .NET, Visual Studio, m’a beaucoup aidé grâce à son interface visuelle qui a permis la prévisualisation des pages ainsi que de l’aide pour écrire le code plus rapidement. Les pages n’ont bien sûr pas été pensées uniquement pour l’utilisateur, j’ai aussi fait en sorte que les données qui seront utilisées dans le logiciel puissent être affichées correctement grâce à des modèles qui permettent en plus de récupérer plus facilement les données calculées en amont.
         </p>
 
         <p>
-        Pour terminer ce projet, j’ai en grande partie rédigé les livrables tels que le manuel d'installation et le manuel d’utilisation.
+        Pour terminer le projet, j’ai rédigé des livrables comme le manuel d’utilisation qui montre comment le site fonctionne d’un point utilisateur, comment il doit se déplacer et les possibilités qui sont offertes. J’ai aussi participé à l'écriture du manuel d’installation qui décrit à notre commanditaire comment il doit déployer l’application pour pouvoir s’en servir.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Fin de projet
+        </h3>
+
+        <p>
+          Au moment du rendu, le logiciel était totalement complet et fonctionnel. Le commanditaire a été très heureux et fier du logiciel qui répondait à ses attentes et ses besoins pour réduire les redondances et pertes de temps dans son travail.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Étant le premier logiciel en client lourd sur lequel j’ai pu travailler, le projet a été extrêmement fourni en enseignements et découvertes. Cette expérience très différente du développement web m'a introduit à la programmation orientée objet qui m’a plutôt séduit.
+        <br/>
+          Cependant, je reste très attiré par le développement web ou mobile pour le futur de ma carrière.
         </p>
       </section>
 
@@ -275,6 +348,32 @@ const contentLookup: RealLookup = {
 
         <p>
         Malgré ces problèmes, nous avons été capables de mener le projet à son terme et avons rendu une version fonctionnelle de notre application web avec tous les livrables associés que j’ai en grande partie rédigés.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Fin de projet
+        </h3>
+
+        <p>
+          Dû à une ambition peut-être trop élevée des commanditaires pour un projet étudiant de 6 mois et d’une application de la méthode agile sûrement trop souple de ma part, le site était tout à fait opérationnel et fonctionnel sur ordinateur ainsi que sur mobile, mais ne répondait pas à l'entièreté des besoins du commanditaire.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Ce projet a été incroyablement intéressant, autant sur le plan technique que sur le plan humain.
+        <br/>
+          La découverte des APIs et leurs utilités aussi polyvalentes que pratiques rendent le développement web fade si elles ne sont pas utilisées. Elles sont incontournables pour n’importe quel développeur.
+        <br/>
+          Sur le plan humain, mes compétences ont encore été mises à rude épreuve. Cette fois-ci, non pas en tant que chef de projet, mais en tant que Scrum Master grâce à la méthode agile.
+        <br/>
+          Pour le futur, je ne peux plus imaginer développer sans API et c’est pourquoi je continue de m’exercer.
         </p>
       </section>
 
@@ -354,11 +453,35 @@ const contentLookup: RealLookup = {
         </p>
 
         <p>
-        J’ai aussi participé à la réalisation de l’application Android. J’ai participé en majorité à l’expérience utilisateur en créant les routes et la navigation de l'application. Ceci est une partie très importante car elle définit la lisibilité et l’accessibilité de toute l’application.
+        J’ai aussi participé à la réalisation de l’application Android. J’ai participé en majorité à l’expérience utilisateur en créant les routes et la navigation de l'application. Ceci est une partie très importante car elle définit la lisibilité et l’accessibilité de toute l’application. Pour ce faire, le logiciel Android Studio offre des outils visuels qui permettent de lier les pages entre elles grâce à des tracés et des chemins. Cela permet de mieux réfléchir aux routes que l’utilisateur va emprunter et d’optimiser son expérience.
         </p>
 
         <p>
-        Pour conclure le projet, j’ai une dernière fois participé à la rédaction des livrables principaux comme le manuel d'utilisation et d’installation. J’ai aussi participé dans le manuel expliquant le fonctionnement de l’API.
+        J’ai aussi créé des modèles de données pour faciliter l’affichage des données à l'équipe dans l’application. Comme nous utilisions Java pour notre application, j’ai créé des classes qui regroupent tous les attributs qui devaient être affichés à l'écran.
+        </p>
+
+        <p>
+        Pour terminer le projet, j’ai rédigé des livrables comme le manuel d’utilisation qui montre comment le site fonctionne d’un point utilisateur, comment il doit se déplacer et les possibilités qui sont offertes. J’ai aussi participé dans le manuel expliquant le fonctionnement de l’API car en ayant beaucoup travaillé dessus, je la connaissais sur le bout des doigts.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Fin de projet
+        </h3>
+
+        <p>
+          Lorsque moi et l'équipe projet avons rendu l’application au commanditaire, il manquait quelques fonctionnalités présentes dans le product-backlog telles que l’utilisation hors ligne. Cependant, l’application était fonctionnelle et a plu au commanditaire.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Ce projet est pour moi très important car il m'a fait découvrir le développement mobile. Bien que limité à ce moment à Android, je vois le potentiel énorme que réservent les applications mobiles, c’est pourquoi j’aimerais, dans ma future carrière de développeur, me diriger vers ce type de développement, quitte à délaisser les logiciels lourds qui sont de moins en moins présents dans notre monde où internet et les smartphones règnent.
         </p>
       </section>
 

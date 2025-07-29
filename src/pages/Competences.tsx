@@ -61,6 +61,18 @@ const contentLookup: CompLookup = {
         </p>
       </section>
 
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          La maîtrise du HTML est une compétence importante pour le développement web car elle est utilisée dans la quasi-totalité des projets concernant des sites web, sur réseau ouvert internet ou fermé intranet. Elle me sera donc toujours utile à l'avenir.
+        <br/>
+          Additionnellement, c’est une technologie que j’aime utiliser et dont j'apprécie en apprendre plus ainsi qu'en renforcer la maîtrise de ce dernier, la meilleure manière d’en savoir plus et de travailler avec, et c’est pourquoi j’aimerais à l'avenir travailler plus avec HTML.
+        </p>
+      </section>
+
       <section className="flex flex-wrap items-center gap-8">
         <Link
           to="../réalisations/lotus"
@@ -92,7 +104,7 @@ const contentLookup: CompLookup = {
         <p>
         Angular est un framework open source créé et mis à disposition du public en 2016 par la grande entreprise de Google.
         <br/>
-        Basé sur le langage TypeScript, il est nécessaire de maîtriser ce dernier pour se servir correctement du framework. Il est possible grâce à Angular, de créer des applications web, généralement mono-page, en utilisant l'architecture MVC ou “model-view-controller”. Cela permet de séparer la gestion des données, des calculs et logiques, ainsi que l’affichage. Avec ce type d’architecture, le code est plus ordonné, plus lisible et donc plus maintenable.
+        Basé sur le langage TypeScript, il est nécessaire de maîtriser ce dernier pour se servir correctement du framework. Il est possible grâce à Angular, de créer des applications web, généralement mono-page, en utilisant l'architecture MVC ou “Model-View-Controller”. Cela permet de séparer la gestion des données, des calculs et logiques, ainsi que l’affichage. Avec ce type d’architecture, le code est plus ordonné, plus lisible et donc plus maintenable.
         </p>
       </section>
 
@@ -105,7 +117,10 @@ const contentLookup: CompLookup = {
           En travaillant avec Angular, j'ai eu des expériences assez différentes.
         </p>
         <p>
-          En projet scolaire, j’ai travaillé en équipe sur un site web Angular avec l’équipe de projet <b>TranSurvey</b>. J’ai surtout travaillé pendant ce projet sur l'aspect visuel et l’affichage des données à l’utilisation. Mes actions étaient donc concentrées sur les aspects “View” et “Controller”. Cependant, cela prouve bien l'efficacité de ce type d’architecture sur le travail en équipe.
+          En projet scolaire, j’ai travaillé en équipe sur un site web Angular avec l’équipe de projet <b>TranSurvey</b>. J’ai surtout travaillé pendant ce projet sur l'aspect visuel et l’affichage des données à l’utilisation.
+        </p>
+        <p>  
+          Mes actions étaient donc concentrées sur les aspects “View” et “Controller”. J’ai alors écrit et codé les pages qui s’afficheront à l'écran pour la partie “View”. Pour la partie “Controller”, j’ai écrit les méthodes qui ont permis d’envoyer les données reçues par une API dans la partie “View”, ce qui permettait un affichage dynamique totalement maîtrisé. Cela prouve bien l'efficacité de ce type d’architecture sur le travail en équipe.
         </p>
         <p>
           J’ai aussi utilisé Angular lors de mon stage dans l’entreprise Safran Helicopter Engines. J’ai travaillé, cette fois-ci, seul sur le site web Angular. J’ai donc pu travailler sur l’entièreté de l’architecture MVC, en écrivant les modèles et en y intégrant de la logique et des calculs, en créant les vues permettant l’affichage de données et en liant tout cela grâce aux contrôleurs.
@@ -123,6 +138,18 @@ const contentLookup: CompLookup = {
         Mon manque d’expérience et d’expertise me font perdre du temps.
         <br/>
         C’est pour cela que je dois maintenir et améliorer mon niveau en continuant d'utiliser Angular dans des projets personnels.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Angular et son architecture “Model-View-Controlleur” est le framework le plus intéressant avec lequel j’ai pu travailler à ce jour. J’ai vraiment apprécié travailler avec, surtout pour le côté collaboration et travail en équipe qui est grandement facilité par ce dernier.
+        <br/>
+          Dans le futur, j’aimerais tout de même voir les capacités d’autres frameworks tels que React ou Vue qui ont bonne réputation.
         </p>
       </section>
 
@@ -179,6 +206,16 @@ const contentLookup: CompLookup = {
           Avec mon parcours scolaire, j’ai pu beaucoup travailler avec les APIs. Je comprends leur fonctionnement, je suis capable de les créer de zéro ou bien de les modifier. Cependant, je ne suis pas parfait et un point en particulier me fait encore défaut.
         <br/>
           Ce point noir réside dans le fait de sécuriser une API qui pourrait être utilisée par le grand public. En effet, je n’ai encore jamais eu l'occasion de travailler sur une API de cette envergure et n’ai donc pas d’expérience concrète dans la sécurisation, bien que j’applique les bonnes pratiques.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          La maîtrise des APIs est primordiale lorsque l’on travaille dans le développement et dans le développement web en particulier. C’est pourquoi je dois continuer de créer et d’utiliser des APIs pour m'améliorer et rester efficace dans ma future carrière de développeur. Je suis pour l’instant cette voie grâce à mes stages et alternances dans lesquels travailler avec des APIs a été une priorité.
         </p>
       </section>
 
@@ -245,6 +282,16 @@ const contentLookup: CompLookup = {
         </p>
       </section>
 
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Je n’ai pas d’affection particulière pour le VBA et je ne suis que débutant sur le langage. Son utilité dans le monde professionnel fera que je croiserai la route du VBA très certainement à nouveau tôt ou tard. Je dois alors continuer à maintenir mon niveau, même sans devenir expert, pour ne pas que son utilisation devienne un frein à un prochain projet.
+        </p>
+      </section>
+
       <section className="flex flex-wrap items-center gap-8">
         <Link
           to="../réalisations/simplE"
@@ -267,9 +314,9 @@ const contentLookup: CompLookup = {
         </h3>
 
         <p>
-        Le SQL ou Structured Query Language est un langage permettant d’exploiter les bases de données relationnelles. En effet, il permet la création, la suppression et même la manipulation des entrées via des instructions sous forme de commandes.
+          Le SQL ou Structured Query Language est un langage permettant d’exploiter les bases de données relationnelles. En effet, il permet la création, la suppression et même la manipulation des entrées via des instructions sous forme de commandes.
         <br/>
-        Le SQL est présent dans un grand nombre de systèmes de base de données. On peut nommer les plus connus tels que MySQL, Oracle ou bien PostgreSQL. Cela fait donc du SQL un langage utilisé dans la plupart des projets informatiques ayant besoin d’une base de données et est donc très largement utilisé.
+          Le SQL est présent dans un grand nombre de systèmes de base de données. On peut nommer les plus connus tels que MySQL, Oracle ou bien PostgreSQL. Cela fait donc du SQL un langage utilisé dans la plupart des projets informatiques ayant besoin d’une base de données et est donc très largement utilisé.
         </p>
       </section>
 
@@ -279,9 +326,11 @@ const contentLookup: CompLookup = {
         </h3>
 
         <p>
-        Comme j’ai pu l'expliquer plutôt, le langage SQL est très communément utilisé dans les projets informatiques. J’ai donc utilisé durant beaucoup de mes projets scolaires ce langage dans le logiciel MySQL. Ces bases de données ont pu être connectées à des API ou des clients lourds.
+          Comme j’ai pu l'expliquer plutôt, le langage SQL est très communément utilisé dans les projets informatiques. J’ai donc utilisé durant beaucoup de mes projets scolaires ce langage dans le logiciel MySQL. Ces bases de données ont pu être connectées à des API ou des clients lourds.
         <br/>
-        Plus récemment, que ce soit durant mon stage dans l’entreprise “Safran Helicopter Engines” ou pendant mon alternance avec “ArianeGroup”, j’ai réalisé des POCs, lesquels étaient liés à des bases de données avec PostgreSQL. J’ai pu me servir du client “pgadmin4” qui m’a facilité la prise en main de ce système de base de données différent de MySQL. Mon expérience la plus satisfaisante a été d'utiliser PostgreSQL sans son client “pgadmin4” mais en ligne de commande. Avec cette manière d'utiliser le SQL j’ai vraiment ressenti une amélioration de mon niveau car l’aide y est minimale contrairement à l’utilisation de client.
+          Pour les projets scolaires, je citerai le projet <b>TranSurvey</b> dans lequel j’ai participé à la création de la base de données devant stocker des questionnaires. Il a fallu penser aux relations et interactions des tables pour ne pas avoir de redondance ou de boucle.
+        <br/>
+          Plus récemment, que ce soit durant mon stage dans l’entreprise “Safran Helicopter Engines” ou pendant mon alternance avec “ArianeGroup”, j’ai réalisé des POCs, lesquels étaient liés à des bases de données avec PostgreSQL. J’ai pu me servir du client “pgadmin4” qui m’a facilité la prise en main de ce système de base de données différent de MySQL. Mon expérience la plus satisfaisante a été d'utiliser PostgreSQL sans son client “pgadmin4” mais en ligne de commande. Avec cette manière d'utiliser le SQL j’ai vraiment ressenti une amélioration de mon niveau car l’aide y est minimale contrairement à l’utilisation de client.
         </p>
       </section>
 
@@ -293,7 +342,19 @@ const contentLookup: CompLookup = {
         <p>
           SQL est un langage que j’apprécie beaucoup et que j’ai utilisé dans la majorité des projets auxquels j’ai participé. J’ai créé des tables, modifié des champs, fait des jointures de table…
         <br/>
-          L’expérience que je n’ai pas encore eue l’occasion d’avoir a été de travailler sur une base réelle et bien complète. En effet, j’ai créé des bases mais je n’ai pas pu interagir avec une base déjà existante. Je ne connais donc pas encore la réelle difficulté de la modification de base.
+          L’expérience que je n’ai pas encore eue l’occasion d’avoir a été de travailler sur une base réelle et bien complète. En effet, j’ai créé des bases mais je n’ai pas pu interagir avec une base déjà existante. Je ne connais donc pas encore la réelle difficulté de la modification de base complexe et déjà pensée.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          SQL est un langage avec lequel j’ai beaucoup apprécié travailler dans mes projets. Il est sûrement l’un des outils les plus pratiques, efficaces et importants dans un projet informatique. 
+        <br/>
+          C’est pourquoi je compte à l'avenir continuer de renforcer ma maîtrise du SQL en participant à des projets utilisant des requêtes plus complexes, ce qui me ferait progresser plus encore.
         </p>
       </section>
 
@@ -365,6 +426,18 @@ const contentLookup: CompLookup = {
         <br/>Ce fut une de mes erreurs lors de mon stage dans l’entreprise Safran Helicopter Engines où je n’ai, après mon départ, laissé que peu de traces de mes recherches. Quelques-unes des connaissances que j’ai apprises ont donc disparu de l’entreprise et n’ont pas été transmises à un successeur. M'en étant rendu compte, c'est une erreur que je ne ferai plus à l'avenir.
         </p>
       </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          La veille informatique est une compétence que tous les développeurs se doivent de maîtriser, je me suis rendu compte de son importance lors de ses applications dans de multiples projets. Je vais certainement continuer d’utiliser cette compétence tout au long de ma carrière et cela est un bénéfice.
+        <br/>
+          Grâce à cette pratique, je vais pouvoir continuellement m'améliorer et devenir meilleur sur les points que je maîtrise déjà, ainsi que je vais monter en compétence dans les domaines qui me sont aujourd’hui inconnus.
+        </p>
+      </section>
     </>
   ),
   cycleV: (
@@ -412,6 +485,18 @@ const contentLookup: CompLookup = {
         </p>
         <p>
           Le cycle en V m'a fait grandir et m’a apporté de la maturité que je n’aurais pas acquise sans ce dernier.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Lors de mes expériences, j’ai eu l'occasion d'expérimenter deux méthodes de travail, d’un côté la méthode agile et de l’autre le cycle en V. J’ai remarqué durant mes projets que le cycle en V est généralement plus efficace et permet une avancée plus rapide et efficace grâce à un but final bien précis.
+        <br/>
+          Cependant, pour les projets informatiques, la méthode agile semble plus adaptée et c’est pourquoi, dans le futur, si un choix doit être fait, il se portera moins souvent sur le cycle en V.
         </p>
       </section>
 
@@ -477,6 +562,18 @@ const contentLookup: CompLookup = {
         </p>
       </section>
 
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Lors de mes expériences, j’ai eu l'occasion d'expérimenter deux méthodes de travail, d’un côté la méthode agile et de l’autre le cycle en V. La méthode agile étant beaucoup adaptative et permissive, permet la création de projets sur-mesure et d’avancer main dans la main avec le commanditaire.
+        <br/>
+          Dans le futur, la méthode agile est la méthode que je privilégierai dans mes projets car généralement plus adaptée aux projets informatiques.
+        </p>
+      </section>
+
       <section className="flex flex-wrap items-center gap-8">
         <Link
           to="../réalisations/transurvey"
@@ -497,7 +594,7 @@ const contentLookup: CompLookup = {
   international: (
     <>
       <h2>
-        Equipe internationale
+        Anglais
       </h2>
 
       <section className="flex flex-col gap-2">
@@ -520,7 +617,7 @@ const contentLookup: CompLookup = {
         </p>
 
         <p>
-          J’ai eu l'occasion de travailler avec des équipes basées en Inde pendant mon stage chez Safran Helicopter Engines afin d’échanger sur des développements. Il est possible de constater la différence de culture dans leur travail. Très axé sur la spécialisation, ils m’ont permis de progresser et de m’améliorer avec les langages Angular et Node.
+          J’ai eu l'occasion de travailler avec des équipes basées en Inde pendant mon stage chez Safran Helicopter Engines afin d’échanger sur des développements. Il est possible de constater la différence de culture dans leur travail. Très axé sur la spécialisation, ils m’ont permis de progresser et de m’améliorer avec les langages Angular et Node. Ces développeurs de l’autre bout du globe ont pu m’aider lorsque je devais traduire du code PLSQL en une API Node, ils m’ont permis de créer des endpoints cohérents et efficaces en empêchant la redondance de code et en me donnant un point de vue extérieur en me proposant des idées qui ne m'avaient pas traversé l’esprit au premier regard.
         </p>
 
         <p>
@@ -535,6 +632,18 @@ const contentLookup: CompLookup = {
 
         <p>
           L’utilisation de l’anglais était quelque chose d’assez commun pour ma part, cependant je n’avais jusqu’ici pas eu l'occasion de mettre à disposition cette compétence en situation de travail réel. Étant habitués à l’accent anglais et américain, les accents non-natifs peuvent être compliqués à appréhender. Aujourd’hui et grâce à mes expériences, mon anglais ne s'est qu’amélioré jusqu'à comprendre des accents différents et inhabituels. Cela me permet de pouvoir encore mieux interagir et travailler avec des collègues à l’étranger.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          L’anglais est une langue que j'apprécie parler et écouter. Additionnellement, l’anglais est pratiqué aujourd’hui dans tous les secteurs dès l’instant où l'activité se répand au-delà de la frontière française.
+        <br/>
+          C’est donc une compétence que je vais continuellement améliorer et utiliser tout au long de ma carrière proche ou future.
         </p>
       </section>
     </>
@@ -580,6 +689,18 @@ const contentLookup: CompLookup = {
 
         <p>
           J’ai déjà pu le mentionner, l’autonomie est une compétence primordiale pour un développeur. Avant d’avoir acquis l’expérience de mon stage et de mon alternance, cet aspect me faisait un peu défaut. Que ce soit dans mon travail ou même dans la vie de tous les jours. Avoir travaillé ces aspects de ma personnalité m’a permis de grandir et d’être aujourd’hui une version plus mature et débrouillarde de moi-même.
+        </p>
+      </section>
+
+      <section className="flex flex-col gap-2">
+        <h3>
+          Conclusion
+        </h3>
+
+        <p>
+          Étant une compétence phare de tout développeur, l’autonomie est une facette que je vais continuer à entraîner pour m'améliorer en tant que développeur mais aussi pour moi-même.
+        <br/>
+          Utile dans les projets comme dans la vie de tous les jours, mon autonomie n’a fait que se renforcer depuis mes stages et alternances et continuera sur cette voie dans ma future carrière.
         </p>
       </section>
     </>
@@ -726,25 +847,6 @@ export function Competences() {
           </b>
         </button>
 
-        <button
-          className={
-            "relative flex items-center gap-4 w-full max-w-2xl p-3 border-2 border-light-sand rounded-xl"
-            + " bg-charcoal-sand shadow-2xl cursor-pointer"
-          }
-          onClick={() => setSelected("veille")}
-        >
-          <div className="flex justify-center items-center w-1/5 h-24">
-            <img
-              src={veille}
-              className="h-full"
-            />
-          </div>
-
-          <b className="text-lg text-left">
-            Veille informatique
-          </b>
-        </button>
-
         <h2 className="text-white">
           Humaines
         </h2>
@@ -802,7 +904,7 @@ export function Competences() {
           </div>
 
           <b className="text-lg text-left">
-            Equipe internationale
+            Anglais
           </b>
         </button>
 
@@ -822,6 +924,25 @@ export function Competences() {
 
           <b className="text-lg text-left">
             Autonomie
+          </b>
+        </button>
+
+        <button
+          className={
+            "relative flex items-center gap-4 w-full max-w-2xl p-3 border-2 border-light-sand rounded-xl"
+            + " bg-charcoal-sand shadow-2xl cursor-pointer"
+          }
+          onClick={() => setSelected("veille")}
+        >
+          <div className="flex justify-center items-center w-1/5 h-24">
+            <img
+              src={veille}
+              className="h-full"
+            />
+          </div>
+
+          <b className="text-lg text-left">
+            Veille informatique
           </b>
         </button>
       </section>
